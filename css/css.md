@@ -625,3 +625,4 @@ There is a trick, with non-repeating gradients, to create the gradient in such a
 *More reading:*
 
 [CSS Gradients](https://css-tricks.com/css3-gradients/)
+

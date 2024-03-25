@@ -1,9 +1,29 @@
-# Cascades Styling Sheets
+# CSS Refresher Notes
 
-<!-- Flexbox & CSS Grid -->
+This is a quick refresher of CSS concepts compiled from various articles online. Contributions are always welcome :)
 
-Inline
-Inline block
+I have linked to most of the articles used, sorry if I missed any. Huge thanks to the community!
+
+**Table of Contents**
+
+- [Positioning](#positioning)
+- [Display](#display)
+- [Floats](#floats)
+- [CSS Selectors](#css-selectors)
+- [Selector efficiency](#selector-efficiency)
+- [Repaints and Reflows](#repaints-and-reflows)
+- [CSS3 Properties](#css3-properties)
+- [CSS3 Media queries](#css3-media-queries)
+- [Responsive Web Design](#responsive-web-design)
+- [CSS3 Transitions](#css3-transitions)
+- [CSS Animations](#css-animations)
+- [Scalable Vector Graphics (SVG)](#scalable-vector-graphics-svg)
+- [CSS Sprites](#css-sprites)
+- [Vertical Alignment](#vertical-alignment)
+- [Known Issues](#known-issues)
+
+
+
 
 ## Positioning
 
@@ -334,3 +354,29 @@ This is particularly useful when assigning border and padding/margin styles for 
 [The 30 CSS Selectors you Must Memorize](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 [What is a Universal Selector in CSS?](https://www.scaler.com/topics/universal-selector-in-css/)
+
+
+## Selector efficiency
+
+The following list of selectors is in decreasing order of specificity:
+* ID selectors (e.g., #example).
+* Class selectors (e.g., .example), attributes selectors (e.g., [type="radio"]) and pseudo-classes (e.g., :hover).
+* Type selectors (e.g., h1) and pseudo-elements (e.g., :before).
+* Universal selector (*), combinators (+, >, ~, ' ') and negation pseudo-class (:not()) have no effect on specificity. (The selectors declared inside :not() do, however.)
+
+Inline styles added to an element (e.g., style="font-weight:bold") always overwrite any styles in external stylesheets and thus can be thought of as having the highest specificity.
+
+Below is a longer list:
+* id (#myid)
+* class (.myclass)
+* tag (div, h1, p)
+* adjacent sibling (h1 + p)
+* child (ul > li)
+* descendant (li a)
+* universal (*)
+* attribute (a[rel=”external”])
+* pseudo-class and pseudo element (a:hover, li:first)
+
+*More Reading*
+
+[CSS Selectors: Should You Optimize Them To Perform Better?](http://vanseodesign.com/css/css-selector-performance/)

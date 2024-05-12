@@ -1,30 +1,3 @@
-# CSS Refresher Notes
-
-This is a quick refresher of CSS concepts compiled from various articles online. Contributions are always welcome :)
-
-I have linked to most of the articles used, sorry if I missed any. Huge thanks to the community!
-
-**Table of Contents**
-
-- [Positioning](#positioning)
-- [Display](#display)
-- [Floats](#floats)
-- [CSS Selectors](#css-selectors)
-- [Selector efficiency](#selector-efficiency)
-- [Repaints and Reflows](#repaints-and-reflows)
-- [CSS3 Properties](#css3-properties)
-- [CSS3 Media queries](#css3-media-queries)
-- [Responsive Web Design](#responsive-web-design)
-- [CSS3 Transitions](#css3-transitions)
-- [CSS Animations](#css-animations)
-- [Scalable Vector Graphics (SVG)](#scalable-vector-graphics-svg)
-- [CSS Sprites](#css-sprites)
-- [Vertical Alignment](#vertical-alignment)
-- [Known Issues](#known-issues)
-
-
-
-
 ## Positioning
 
 CSS Position allows up to 5 different values. But essentially only 4 values are commonly used.
@@ -72,11 +45,4 @@ div {
 * Relative positioning will allow you to tweak an element’s position relative to its normal starting point.
 * Absolute positioning will allow you to tweak an element’s position relative to its first non-statically-positioned ancestor (defaults to page bounds if none is found).
 * Both relatively and absolutely positioned items won’t affect the static and fixed items around them (absolutely positioned items are removed from the flow, relatively positioned items occupy their original position).
-
-
-
-
-
-
-
 
